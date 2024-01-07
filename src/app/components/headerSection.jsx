@@ -3,7 +3,7 @@ import React from 'react'
 import Image from 'next/image'
 import { TypeAnimation } from 'react-type-animation';
 
-const HeroSection = () => {
+const headerSection = () => {
   return (
     <section>
         <div className ="grid grid-cols-1 sm:grid-cols-12">
@@ -13,9 +13,9 @@ const HeroSection = () => {
                 <br></br>
                 <TypeAnimation
                   sequence={[
-                    ' Daksh!',
+                    ' Daksh',
                     1500,
-                    ' an aspiring Software Engineer',
+                    ' a Software Engineer',
                     1500
                   ]}
                   wrapper="span"
@@ -23,7 +23,7 @@ const HeroSection = () => {
                   repeat={Infinity}
                 />
               </h1>
-              <p className="text-[#ADB7BE] text-base sm:text-lg mb-6 lg:text-xl">
+              <p className="text-[#A9A9A9] text-base sm:text-lg mb-6 lg:text-xl">
                 Currently seeking internships for Summer 2024
               </p>
               <div>
@@ -51,4 +51,4 @@ const HeroSection = () => {
   )
 }
 
-export default HeroSection
+export default headerSection

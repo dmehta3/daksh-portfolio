@@ -23,19 +23,19 @@ const headerSection = () => {
                   repeat={Infinity}
                 />
               </h1>
-              <p className="text-[#A9A9A9] text-base sm:text-lg mb-6 lg:text-xl">
+              <p className="text-[#A9A9A9] sm:text-xl mb-6 lg:text-2xl font:semibold">
                 Currently seeking internships for Summer 2024
               </p>
               <div>
-                <button className="px-6 py-3 w-full sm:w-fit rounded-full mr-3 bg-gradient-to-br from-red-500 via-orange-500 to-yellow-500 hover:bg-slate-400 text-white ">
-                  Hire Me
+                <button className="px-6 py-3 w-full sm:w-fit rounded-full mr-3 bg-gradient-to-br from-red-500 via-orange-500 to-yellow-500 hover:bg-slate-400 text-white font-bold">
+                  Download Resume
                 </button>
-                <button className="px-1 py-1 w-full sm:w-fit rounded-full  bg-gradient-to-br from-red-500 via-orange-500 to-yellow-500 hover:bg-slate-800 text-white mt-3">
+                {/* <button className="px-1 py-1 w-full sm:w-fit rounded-full  bg-gradient-to-br from-red-500 via-orange-500 to-yellow-500 hover:bg-slate-800 text-white mt-3">
                   <span className="block bg-[#121212] hover:bg-slate-800 rounded-full px-5 py-2">Resume</span>
-                </button>
+                </button> */}
               </div>
             </div>
-            <div className="col-span-5 place-self-center mt-4 lg:mt-0">
+            <div className="col-span-5 place-self-center mt-6 lg:mt-0 md:pl-12 lg:pl-20">
               <div className="rounded-full bg-[#28282B] w-[250px] h-[250px] lg:w-[300px] lg:h-[300px] relative">
                 <Image
                 src="/images/pfp.png"

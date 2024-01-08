@@ -40,12 +40,12 @@ const navigation = () => {
 
   return (
     <nav className="fixed top-0 left-0 right-0 z-10 bg-[#121212] bg-opacity-100">
-        <div className="flex flex-wrap items-center justify-between mx-auto px-4 py-2">
+        <div className="flex flex-wrap items-center justify-between mx-auto px-4 py-4">
         <Link href={'/'}>
           <Image
                 src="/images/logo.png"
                 alt="logo"
-                className="pl-2 pt-2"
+                className="pl-4"
                 width = {75}
                 height = {75}
                 />

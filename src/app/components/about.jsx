@@ -5,25 +5,25 @@ import { handleClientScriptLoad } from 'next/script'
 
 const TABS = [
     {
-        title: "Skills",
-        id: "skills", 
+        title: "Languages",
+        id: "languages", 
         content: (
-            <ul>
-                <li>
-                    Languages:
-                    <ul className="list-disc pl-5">
-                        <li>Java</li>
-                        <li>C/C++</li>
-                        <li>Python</li>
-                        <li>SQL</li>
-                        <li>PHP</li>
-                        <li>JavaScript</li>
-                        <li>HTML/CSS</li>
-                    </ul>
-                </li>
-                <li className ="mt-3">
-                    Tools/Frameworks:
-                    <ul className ="list-disc pl-5">
+            <ul className="list-disc pl-5">
+                <li>Java</li>
+                <li>C/C++</li>
+                <li>Python</li>
+                <li>SQL</li>
+                <li>PHP</li>
+                <li>JavaScript</li>
+                <li>HTML/CSS</li>
+            </ul>
+        )
+    },
+    {
+        title: "Tools/Frameworks",
+        id: "tools", 
+        content: (
+            <ul className ="list-disc pl-5">
                         <li>React.js</li>
                         <li>Express.js</li>
                         <li>Git/Github</li>
@@ -32,8 +32,6 @@ const TABS = [
                         <li>Splunk API</li>
                         <li>OracleDB</li>
                     </ul>
-                </li>
-            </ul>
         )
     },
     {
@@ -67,7 +65,7 @@ const TABS = [
 ]
 
 const about = () => {
-    const [tab, setTab] = useState("skills")
+    const [tab, setTab] = useState("languages")
     const [isPending, startTransition] = useTransition()
 
     const handleTabChange = (id) => {
@@ -92,9 +90,13 @@ const about = () => {
                     Upsilon Pi Epsilon, ACM, and Colorstack.
                     </p>
                     <div className="flex flex-row mt-8">
-                        <TabButton selectTab={() => handleTabChange("skills")} active={tab === "skills"} >
+                        <TabButton selectTab={() => handleTabChange("languages")} active={tab === "languages"} >
                             {" "}
-                            Skills{" "}
+                            Languages{" "}
+                        </TabButton>
+                        <TabButton selectTab={() => handleTabChange("tools")} active={tab === "tools"} >
+                            {" "}
+                            Tools/Frameworks{" "}
                         </TabButton>
                         <TabButton selectTab={() => handleTabChange("education")} active={tab === "education"} >
                             {" "}

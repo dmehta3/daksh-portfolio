@@ -27,7 +27,7 @@ const headerSection = () => {
                 Currently seeking internships for Summer 2024
               </p>
               <div>
-                <button className="px-6 py-3 w-full sm:w-fit rounded-full mr-3 bg-gradient-to-br from-red-500 via-orange-500 to-yellow-500 hover:bg-slate-400 text-white font-bold">
+                <button className="px-6 py-3 w-full sm:w-fit rounded-full bg-gradient-to-br from-red-500 via-orange-500 to-yellow-500 hover:bg-slate-400 text-white font-bold">
                   Download Resume
                 </button>
                 {/* <button className="px-1 py-1 w-full sm:w-fit rounded-full  bg-gradient-to-br from-red-500 via-orange-500 to-yellow-500 hover:bg-slate-800 text-white mt-3">

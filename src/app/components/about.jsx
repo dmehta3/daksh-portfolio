@@ -79,7 +79,7 @@ const about = () => {
             <div className="grid grid-cols-1 items-center px-8 py-4">
                 <div className="mt-4 md:mt-0 text-left flex flex-col h-full">
                     <h1 className="text-white text-3xl font-bold place-self-center mb-4">About Me</h1>
-                    <p className="text-white text-base lg:text-lg">
+                    <p className="text-[#a9a9a9] text-base lg:text-lg">
                     I'm a Junior majoring in computer science at Binghamton University. I am driven by
                     the challenge of crafting efficient and responsive software solutions. I find satisfaction
                     in turning abstract concepts into tangible results, whether it's writing complex

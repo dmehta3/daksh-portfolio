@@ -28,8 +28,8 @@ const project_data = [
 
 const projects = () => {
   return (
-    <>
-        <h2 className="text-center text-3xl font-bold text-bold mt-4 mb-6 place-self-center">My Projects</h2>
+    <section>
+        <h1 className="text-center text-3xl font-bold text-bold mt-16 md:mt-8 mb-6 place-self-center">My Projects</h1>
 
         <div className="grid md:grid-cols-3 gap-8 md:gap-12 mb-6 md:mb-4">
             {project_data.map((p) => (
@@ -43,12 +43,12 @@ const projects = () => {
             ))}
         </div>
 
-        <div className="grid place-items-center">
+        <div className="grid place-items-center mb-16 md:mb-8">
             <Link href = "https://github.com/dmehta3/" rel="noopener noreferrer" target="_blank" className="px-6 py-3 text-center w-full sm:w-fit rounded-full bg-gradient-to-br from-red-500 via-orange-500 to-yellow-500 hover:bg-slate-400 text-white font-bold">
                 View More
             </Link>
         </div>
-    </>
+    </section>
   )
 }
 export default projects

@@ -1,5 +1,5 @@
 import React from 'react'
-import NavLink from './Navlinks'
+import NavLink from './navlinks'
 
 const Menu = ({ links }) => {
   return (

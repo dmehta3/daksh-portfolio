@@ -1,6 +1,6 @@
 import React from 'react'
 import Link from "next/link"
-import Project from "./project"
+import Project from "./Project"
 
 const project_data = [
     {
@@ -26,7 +26,7 @@ const project_data = [
     }
 ]
 
-const projects = () => {
+const Projects = () => {
   return (
     <section id="projects" className="mt-18 md:mt-12 pt:24">
         <h1 className="text-center text-3xl font-bold text-bold mt-16 md:mt-8 mb-6 px-8 py-4 place-self-center">My Projects</h1>
@@ -51,4 +51,4 @@ const projects = () => {
     </section>
   )
 }
-export default projects
+export default Projects

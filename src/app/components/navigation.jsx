@@ -2,10 +2,10 @@
 import React, { useState, useEffect } from 'react'
 import Link from 'next/link'
 import Image from 'next/image'
-import NavLink from "./navlinks"
+import NavLink from "./Navlinks"
 import { EllipsisHorizontalCircleIcon, XCircleIcon } from "@heroicons/react/24/outline"
 import { Link as ScrollLink, animateScroll as scroll } from 'react-scroll';
-import MenuOverlay from "./menu"
+import MenuOverlay from "./Menu"
 
 const links = [
   {
@@ -22,7 +22,7 @@ const links = [
   }
 ]
 
-const navigation = () => {
+const Navigation = () => {
   const [navbarOpen, setNavbarOpen] = useState(false);
 
   const scrollToTop = () => {
@@ -87,4 +87,4 @@ const navigation = () => {
   )
 }
 
-export default navigation
+export default Navigation

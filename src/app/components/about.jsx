@@ -1,6 +1,6 @@
 "use client"
 import React, { useState, useTransition } from 'react'
-import TabButton from "./tabButtons"
+import TabButton from "./TabButtons"
 
 const TABS = [
     {
@@ -63,7 +63,7 @@ const TABS = [
     }
 ]
 
-const about = () => {
+const About = () => {
     const [tab, setTab] = useState("languages")
     const [isPending, startTransition] = useTransition()
 
@@ -110,4 +110,4 @@ const about = () => {
     )
 }
 
-export default about
+export default About

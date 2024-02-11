@@ -7,7 +7,7 @@ const variants = {
   active: { width: "calc(100% - 0.75rem)" },
 };
 
-const tabButtons = ({active, selectTab, children}) => {
+const TabButtons = ({active, selectTab, children}) => {
 const buttonClasses = active ? "text-white" : "text-[#A9A9A9]"
 
   return (
@@ -24,4 +24,4 @@ const buttonClasses = active ? "text-white" : "text-[#A9A9A9]"
   )
 }
 
-export default tabButtons
+export default TabButtons

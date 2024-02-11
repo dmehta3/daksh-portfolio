@@ -1,7 +1,7 @@
 import React from 'react'
-import NavLink from './navlinks'
+import NavLink from './Navlinks'
 
-const menu = ({ links }) => {
+const Menu = ({ links }) => {
   return (
     <ul className ="flex flex-col py-4 items-center">
       {
@@ -14,4 +14,4 @@ const menu = ({ links }) => {
   )
 }
 
-export default menu
+export default Menu

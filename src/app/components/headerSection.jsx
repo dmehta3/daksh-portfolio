@@ -3,7 +3,7 @@ import React from 'react'
 import Image from 'next/image'
 import { TypeAnimation } from 'react-type-animation';
 
-const headerSection = () => {
+const HeaderSection = () => {
   return (
     <section className="lg:pt-16 md:pt-8 sm:pt-4">
         <div className ="grid grid-cols-1 sm:grid-cols-12">
@@ -53,4 +53,4 @@ const headerSection = () => {
   )
 }
 
-export default headerSection
+export default HeaderSection

@@ -4,7 +4,7 @@ import LinkedinIcon from '../../../public/linkedin-icon.svg'
 import Link from 'next/link'
 import Image from 'next/image'
 
-const socials = () => {
+const Socials = () => {
   return (
     <section id="contact" className="mt-18 md:mt-12 grid items-center px-8 py-6">
         <h1 className="text-center text-3xl font-bold text-bold mt-16 md:mt-8 mb-6 place-self-center">Let's Connect!</h1>
@@ -23,4 +23,4 @@ const socials = () => {
   )
 }
 
-export default socials
+export default Socials

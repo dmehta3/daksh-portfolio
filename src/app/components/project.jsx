@@ -3,7 +3,7 @@ import React from 'react'
 import { CodeBracketIcon } from "@heroicons/react/24/outline"
 import Link from "next/link"
 
-const project = ({imgUrl, title, description, gitUrl}) => {
+const Project = ({imgUrl, title, description, gitUrl}) => {
   return (
     <div className="mt-8 md:mt-4">
         <div className="h-52 md:h-72 rounded-t-xl relative group" 
@@ -24,4 +24,4 @@ const project = ({imgUrl, title, description, gitUrl}) => {
   )
 }
 
-export default project
+export default Project

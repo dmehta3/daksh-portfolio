@@ -1,7 +1,7 @@
 import React from 'react'
 import Image from 'next/image'
 
-const footer = () => {
+const Footer = () => {
   return (
     <footer className="footer flex flex-col items-center border z-10 border-t-[#33353F] border-l-transparent border-r-transparent border-b-transparent text-white">
         <div className="container p-8 flex items-center justify-between">
@@ -19,4 +19,4 @@ const footer = () => {
   )
 }
 
-export default footer
+export default Footer

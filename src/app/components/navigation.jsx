@@ -2,10 +2,10 @@
 import React, { useState, useEffect } from 'react'
 import Link from 'next/link'
 import Image from 'next/image'
-import NavLink from "./Navlinks"
+import NavLink from "./navlinks"
 import { EllipsisHorizontalCircleIcon, XCircleIcon } from "@heroicons/react/24/outline"
 import { Link as ScrollLink, animateScroll as scroll } from 'react-scroll';
-import MenuOverlay from "./Menu"
+import MenuOverlay from "./menu"
 
 const links = [
   {

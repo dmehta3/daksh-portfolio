@@ -1,6 +1,6 @@
 import React from 'react'
 import Link from "next/link"
-import Project from "./Project"
+import Project from "./project"
 
 const project_data = [
     {

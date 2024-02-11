@@ -5,10 +5,10 @@ import { TypeAnimation } from 'react-type-animation';
 
 const headerSection = () => {
   return (
-    <section className="lg:py-16 md:py-8 sm:py-4">
+    <section className="lg:pt-16 md:pt-8 sm:pt-4">
         <div className ="grid grid-cols-1 sm:grid-cols-12">
             <div className="col-span-7 text-center sm:text-left">
-              <h1 className="text-white mb-4 text-4xl sm:text-5xl lg:text-7xl lg:leading-normal font-extrabold">
+              <h1 className="text-white mb-4 text-4xl sm:text-5xl lg:text-6xl lg:leading-normal font-extrabold">
                 Hi, I'm
                 <br></br>
                 <TypeAnimation

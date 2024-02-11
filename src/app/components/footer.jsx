@@ -13,7 +13,7 @@ const footer = () => {
                     height = {50}
                     />
             </span>
-            <p className="text-slate-500">Made by Daksh Mehta.</p>
+            <p className="text-slate-500 font-semibold">Made by Daksh Mehta</p>
         </div>
     </footer>
   )

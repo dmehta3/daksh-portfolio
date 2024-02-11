@@ -28,8 +28,8 @@ const project_data = [
 
 const projects = () => {
   return (
-    <section id="projects" className="mt-24 md:mt-16">
-        <h1 className="text-center text-3xl font-bold text-bold mt-16 md:mt-8 mb-6 place-self-center">My Projects</h1>
+    <section id="projects" className="mt-18 md:mt-12 pt:24">
+        <h1 className="text-center text-3xl font-bold text-bold mt-16 md:mt-8 mb-6 px-8 py-4 place-self-center">My Projects</h1>
 
         <div className="grid md:grid-cols-3 gap-8 md:gap-12 mb-6 md:mb-4">
             {project_data.map((p) => (

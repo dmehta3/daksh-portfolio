@@ -4,6 +4,7 @@ import Link from 'next/link'
 import Image from 'next/image'
 import NavLink from "./navlinks"
 import { EllipsisHorizontalCircleIcon, XCircleIcon } from "@heroicons/react/24/outline"
+import { Link as ScrollLink, animateScroll as scroll } from 'react-scroll';
 import MenuOverlay from "./menu"
 
 const links = [
@@ -24,6 +25,10 @@ const links = [
 const navigation = () => {
   const [navbarOpen, setNavbarOpen] = useState(false);
 
+  const scrollToTop = () => {
+    scroll.scrollToTop();
+  };
+
   useEffect(() => {
     const handleResize = () => {
       if (window.innerWidth >= 768 && navbarOpen) {
@@ -41,7 +46,7 @@ const navigation = () => {
   return (
     <nav className="fixed border border-b-[#33353F] border-l-transparent border-r-transparent border-t-transparent top-0 left-0 right-0 z-10 bg-[#121212] bg-opacity-100">
         <div className="flex flex-wrap items-center justify-between mx-auto px-4 py-4">
-        <Link href={'/'}>
+        <button onClick={scrollToTop}>
           <Image
                 src="/images/logo.png"
                 alt="logo"
@@ -49,7 +54,7 @@ const navigation = () => {
                 width = {75}
                 height = {75}
                 />
-          </Link>
+          </button>
         <div className="mobile-menu block md:hidden">
             {
               !navbarOpen ? (

@@ -3,7 +3,8 @@ import HeroSection from './components/headerSection'
 import Navbar from './components/navigation'
 import AboutSection from './components/about'
 import Projects from './components/projects'
-import FootSection from './components/footer'
+import SocialSection from './components/socials'
+import FooterSection from './components/footer'
 
 export default function Home() {
   return (
@@ -13,8 +14,9 @@ export default function Home() {
        <HeroSection />
        <AboutSection />
        <Projects />
-       <FootSection />
+       <SocialSection />
      </div>
+     <FooterSection />
     </main>
   )
 }

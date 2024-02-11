@@ -20,7 +20,7 @@ const project_data = [
     {
         id: 3, 
         title: "CPU Branch Predictor", 
-        description: "This project measures the effectiveness of several branch direction predictors on a number of traces of conditional branch instructions. It demonstrates skills in algorithm design, data analysis, and critical thinking", 
+        description: "This project measures the effectiveness of several branch direction predictors on a number of traces of conditional branch instructions. It demonstrates skills in algorithm design, data analysis, and critical thinking.", 
         image: "images/project-images/branch.jpg",
         gitUrl: "https://github.com/dmehta3/Branch-Predictors"
     }
@@ -28,7 +28,7 @@ const project_data = [
 
 const projects = () => {
   return (
-    <section>
+    <section id="projects" className="mt-24 md:mt-16">
         <h1 className="text-center text-3xl font-bold text-bold mt-16 md:mt-8 mb-6 place-self-center">My Projects</h1>
 
         <div className="grid md:grid-cols-3 gap-8 md:gap-12 mb-6 md:mb-4">

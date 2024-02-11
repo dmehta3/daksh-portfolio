@@ -4,7 +4,7 @@ import Link from "next/link"
 
 const project = ({imgUrl, title, description, gitUrl}) => {
   return (
-    <div>
+    <div className="mt-8 md:mt-4">
         <div className="h-52 md:h-72 rounded-t-xl relative group" 
             style={{background: `url(${imgUrl})`, backgroundSize: "contain"}}>
             <div className="overlay items-center justify-center absolute top-0 left-0 w-full h-full rounded-t-xl bg-[#28282B] bg-opacity-0 hidden group-hover:flex group-hover:bg-opacity-60 transition-all duration-500 ">
@@ -15,9 +15,9 @@ const project = ({imgUrl, title, description, gitUrl}) => {
                     </Link>
             </div>
         </div>
-        <div className="text-white rounded-b-xl bg-[#28282B] py-6 px-4">
+        <div className="text-white flex flex-col items-center rounded-b-xl bg-[#121212] py-6 px-4">
             <h5 className="text-xl font-semibold mb-3">{title}</h5>
-            <p className="text-{#a9a9a9]">{description}</p>
+            <p className="ml-3 text-{#a9a9a9]">{description}</p>
         </div>
     </div>
   )

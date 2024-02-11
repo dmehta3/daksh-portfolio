@@ -5,10 +5,10 @@ import { TypeAnimation } from 'react-type-animation';
 
 const headerSection = () => {
   return (
-    <section>
+    <section className="lg:py-16 md:py-8 sm:py-4">
         <div className ="grid grid-cols-1 sm:grid-cols-12">
             <div className="col-span-7 text-center sm:text-left">
-              <h1 className="text-white mb-4 text-4xl sm:text-5xl lg:text-6xl font-extrabold">
+              <h1 className="text-white mb-4 text-4xl sm:text-5xl lg:text-7xl lg:leading-normal font-extrabold">
                 Hi, I'm
                 <br></br>
                 <TypeAnimation
@@ -23,7 +23,7 @@ const headerSection = () => {
                   repeat={Infinity}
                 />
               </h1>
-              <p className="text-[#A9A9A9] sm:text-xl mb-6 lg:text-2xl font:semibold">
+              <p className="text-[#A9A9A9] sm:text-xl mb-8 lg:text-2xl font:semibold">
                 Currently seeking internships for Summer 2024
               </p>
               <div>
@@ -38,11 +38,11 @@ const headerSection = () => {
             <div className="col-span-5 place-self-center mt-6 lg:mt-0 md:pl-12 lg:pl-20">
               <div className="rounded-full bg-[#28282B] w-[250px] h-[250px] lg:w-[300px] lg:h-[300px] relative">
                 <Image
-                src="/images/pfp.png"
-                alt="Professional Headshot"
-                className="absolute transform -translate-x-1/2 -translate-y-1/2 top-1/2 left-1/2"
-                width = {250}
-                height = {250}
+                  src="/images/pfp.png"
+                  alt="Professional Headshot"
+                  className="absolute transform -translate-x-1/2 -translate-y-1/2 top-1/2 left-1/2"
+                  width = {250}
+                  height = {250}
                 />
               </div>
             </div>

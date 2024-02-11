@@ -75,7 +75,7 @@ const about = () => {
     }
 
     return (
-        <section className="text-white mt-16 md:mt-8">
+        <section id="about" className="text-white mt-24 md:mt-16">
             <div className="grid grid-cols-1 items-center px-8 py-4">
                 <div className="mt-4 md:mt-0 text-left flex flex-col h-full">
                     <h1 className="text-white text-3xl font-bold place-self-center mb-4">About Me</h1>
@@ -102,10 +102,7 @@ const about = () => {
                             {" "}
                             Education{" "}
                         </TabButton>
-                        <TabButton selectTab={() => handleTabChange("experience")} active={tab === "experience"} >
-                            {" "}
-                            Experience{" "}
-                        </TabButton>
+                        
                     </div>
                     <div className="mt-8">{TABS.find((t) => t.id === tab).content}</div>
                 </div>

@@ -79,13 +79,13 @@ const About = () => {
                 <div className="mt-4 md:mt-0 text-left flex flex-col h-full">
                     <h1 className="text-white text-3xl font-bold place-self-center mb-4">About Me</h1>
                     <p className="text-[#a9a9a9] text-base lg:text-lg">
-                    I'm a Junior majoring in computer science at Binghamton University. I am driven by
+                    I&apos;m a Junior majoring in computer science at Binghamton University. I am driven by
                     the challenge of crafting efficient and responsive software solutions. I find satisfaction
-                    in turning abstract concepts into tangible results, whether it's writing complex
+                    in turning abstract concepts into tangible results, whether it&apos;s writing complex
                     algorithms or creating impactful software. I am always seeking new opportunities to connect,
                     learn, and collaborate in diverse environments. My quick learning and collaborative spirit
                     fuel my ambition to use technology to solve complex problems and find novel solutions.
-                    Outside of coding, I'm an active member of the Hindu Student Council, the Student Association,
+                    Outside of coding, I&apos;m an active member of the Hindu Student Council, the Student Association,
                     Upsilon Pi Epsilon, ACM, and Colorstack.
                     </p>
                     <div className="flex flex-row mt-8">
@@ -110,4 +110,4 @@ const About = () => {
     )
 }
 
-export default About
+export default About;

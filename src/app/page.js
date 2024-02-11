@@ -1,10 +1,10 @@
 import Image from 'next/image'
 import HeroSection from './components/headerSection'
-import Navbar from './components/Navigation'
-import AboutSection from './components/About'
-import Projects from './components/Projects'
-import SocialSection from './components/Socials'
-import FooterSection from './components/Footer'
+import Navbar from './components/navigation'
+import AboutSection from './components/about'
+import Projects from './components/projects'
+import SocialSection from './components/socials'
+import FooterSection from './components/footer'
 
 export default function Home() {
   return (

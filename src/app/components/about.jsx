@@ -1,7 +1,6 @@
 "use client"
 import React, { useState, useTransition } from 'react'
 import TabButton from "./tabButtons"
-import { handleClientScriptLoad } from 'next/script'
 
 const TABS = [
     {

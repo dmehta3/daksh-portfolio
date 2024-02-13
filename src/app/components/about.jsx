@@ -15,21 +15,22 @@ const TABS = [
                 <li>PHP</li>
                 <li>JavaScript</li>
                 <li>HTML/CSS</li>
+                <li>Rust</li>
             </ul>
         )
     },
     {
-        title: "Tools/Frameworks",
+        title: "Technologies",
         id: "tools", 
         content: (
             <ul className ="list-disc pl-5">
                         <li>React.js</li>
-                        <li>Express.js</li>
-                        <li>Git/Github</li>
                         <li>Node.js</li>
-                        <li>jQuery</li>
-                        <li>Splunk API</li>
-                        <li>OracleDB</li>
+                        <li>Git/Github</li>
+                        <li>Linux</li>
+                        <li>Laravel</li>
+                        <li>REST API</li>
+                        <li>Matplotlib</li>
                     </ul>
         )
     },

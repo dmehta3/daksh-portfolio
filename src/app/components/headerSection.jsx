@@ -16,7 +16,9 @@ const HeaderSection = () => {
                     ' Daksh',
                     1500,
                     ' a Software Engineer',
-                    1500
+                    1500,
+                    ' a Project Manager',
+                    1500,
                   ]}
                   wrapper="span"
                   speed={40}
@@ -24,7 +26,7 @@ const HeaderSection = () => {
                 />
               </h1>
               <p className="text-[#A9A9A9] sm:text-xl mb-8 lg:text-2xl font:semibold">
-                Currently seeking internships for Summer 2024
+                Currently seeking full-time opportunities for Summer 2025
               </p>
               <div>
                 <a href="/pdfs/Daksh_Mehta_Resume.pdf" download>

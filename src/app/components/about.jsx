@@ -43,19 +43,18 @@ const TABS = [
         title: "Education",
         id: "education", 
         content: (
-            <ul>
+            <ul className ="list-disc pl-5">
                 <li>
                     B.S. in Computer Science at Binghamton University
-                </li>
-                <li>
+                    <li>
                     Expected Graduation May 2025
+                    </li>
                 </li>
-                <li></li>
                 <li>
                     Master of Business Administration at Binghamton University
-                </li>
-                <li>
+                    <li>
                     Expected Graduation May 2026
+                    </li>
                 </li>
             </ul>
         )

@@ -50,6 +50,7 @@ const TABS = [
                 <li>
                     Expected Graduation May 2025
                 </li>
+                <li></li>
                 <li>
                     Master of Business Administration at Binghamton University
                 </li>

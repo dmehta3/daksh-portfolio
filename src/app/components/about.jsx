@@ -27,6 +27,11 @@ const TABS = [
                         <li>React.js</li>
                         <li>Node.js</li>
                         <li>Git/Github</li>
+                        <li>VS Code</li>
+                        <li>PL/SQL Developer</li>
+                        <li>Jupyter</li>
+                        <li>Docker</li>
+                        <li>Kubernetes</li>
                         <li>Linux</li>
                         <li>Laravel</li>
                         <li>REST API</li>
@@ -44,6 +49,12 @@ const TABS = [
                 </li>
                 <li>
                     Expected Graduation May 2025
+                </li>
+                <li>
+                    Master of Business Administration at Binghamton University
+                </li>
+                <li>
+                    Expected Graduation May 2026
                 </li>
             </ul>
         )
@@ -80,7 +91,7 @@ const About = () => {
                 <div className="mt-4 md:mt-0 text-left flex flex-col h-full">
                     <h1 className="text-white text-3xl font-bold place-self-center mb-4">About Me</h1>
                     <p className="text-[#a9a9a9] text-base lg:text-lg">
-                    I&apos;m a Junior majoring in computer science at Binghamton University. I am driven by
+                    I&apos;m a Senior majoring in computer science at Binghamton University. I am driven by
                     the challenge of crafting efficient and responsive software solutions. I find satisfaction
                     in turning abstract concepts into tangible results, whether it&apos;s writing complex
                     algorithms or creating impactful software. I am always seeking new opportunities to connect,
